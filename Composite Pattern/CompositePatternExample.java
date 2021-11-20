@@ -1,9 +1,4 @@
 class CompositePatternExample {
-        /**Principal is on top of college.
-        *HOD -Maths and Comp. Sc directly reports to him
-        *Teachers of Computer Sc. directly reports to HOD-CSE
-        *Teachers of Mathematics directly reports to HOD-Maths
-        */
         public static void main(String[] args) {
             System.out.println("***Composite Pattern ***");
             // 2 developers work in Development roles other than managers
