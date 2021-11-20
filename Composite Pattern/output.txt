@@ -1,0 +1,82 @@
+***Composite Pattern ***
+
+ Testing the structure of a CEO object
+
+	CEO works in  Company
+
+
+	Manager - 2  works in  HR
+
+
+		HR - 1 works in HR
+
+
+		HR - 2 works in HR
+
+
+		HR - 3 works in HR
+
+
+	Manager - 1 works in  Development
+
+
+		Developer - 1 works in Development
+
+
+		Developer - 2 works in Development
+
+
+At present Ceo has control over 7 number of employees.
+
+
+
+ Testing the structure of a Developmen manager object:
+
+
+	Manager - 1 works in  Development
+
+
+		Developer - 1 works in Development
+
+
+		Developer - 2 works in Development
+
+
+At present development manager has control over 2 number of employees.
+
+
+
+ Testing the structure of a HR manager object:
+
+
+	Manager - 2  works in  HR
+
+
+		HR - 1 works in HR
+
+
+		HR - 2 works in HR
+
+
+		HR - 3 works in HR
+At present HR Manager has control over 3 number of employees.
+
+ Testing the structure of a leaf node:
+		Developer - 1 works in Development
+At present developer-1 has control over 0 number of employees.
+
+ After developer-1 resigned, the organization has following members:
+	CEO works in  Company
+	Manager - 2  works in  HR
+		HR - 1 works in HR
+		HR - 2 works in HR
+		HR - 3 works in HR
+	Manager - 1 works in  Development
+		Developer - 2 works in Development
+At present Ceo has control over 6 number of employees
+At present developer manager has control over 1 number of employees
+At present HR manager has control over 3 number of employees
+
+
+
+** Process exited - Return Code: 0 **
